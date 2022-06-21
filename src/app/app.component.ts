@@ -13,6 +13,6 @@ export class AppComponent {
   constructor(private timersService: TimersService) {}
 
   clicked(): void {
-    this.timersService.addTimer();
+    this.timersService.readDatabase();
   }
 }
